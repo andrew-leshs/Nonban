@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/firstFragment"
+        android:title="Apps"
+        android:icon="@drawable/ic_baseline_apps_24"/>
+    <item
+        android:id="@+id/secondFragment"
+        android:title="Games"
+        android:icon="@drawable/ic_baseline_games_24"/>
+    <item
+        android:id="@+id/thirdFragment"
+        android:title="Add app"
+        android:icon="@drawable/ic_baseline_add_24"/>
+    <item
+        android:id="@+id/forthFragment"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_24"/>
+</menu>

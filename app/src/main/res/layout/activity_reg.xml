@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegActivity">
+
+    <Button
+        android:id="@+id/save_email"
+        android:layout_width="138dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="288dp"
+        android:fontFamily="@font/goglesans"
+        android:text="OK"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintVertical_bias="0.225"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/send_code"
+        android:layout_width="138dp"
+        android:visibility="invisible"
+        android:layout_height="73dp"
+        android:layout_marginBottom="288dp"
+        android:fontFamily="@font/goglesans"
+        android:text="Next"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/code_email"
+        app:layout_constraintVertical_bias="0.225" />
+
+    <Button
+        android:id="@+id/send_name"
+        android:layout_width="138dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="200dp"
+        android:fontFamily="@font/goglesans"
+        android:text="Next"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/send_gender"
+        android:layout_width="138dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/goglesans"
+        android:text="OK"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/surname" />
+
+    <TextView
+        android:id="@+id/first_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:fontFamily="@font/goglesans"
+        android:text="First step. Your Email"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/code_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:visibility="invisible"
+        android:fontFamily="@font/goglesans"
+        android:text="Second step. Password"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:visibility="invisible"
+        android:fontFamily="@font/goglesans"
+        android:text="Third step. Name"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gender_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:visibility="invisible"
+        android:fontFamily="@font/goglesans"
+        android:text="Gender and Location"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="277dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint=""
+        android:fontFamily="@font/goglesans"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_view"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <EditText
+        android:id="@+id/code_email"
+        android:layout_width="277dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="8 symbols"
+        android:visibility="invisible"
+        android:fontFamily="@font/goglesans"
+        android:inputType="number"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_view"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="277dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Name"
+        android:visibility="invisible"
+        android:fontFamily="@font/goglesans"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_view"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="277dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:fontFamily="@font/goglesans"
+        android:hint="Surname"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_view"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="277dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:fontFamily="@font/goglesans"
+        android:hint="Country, City"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_view"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

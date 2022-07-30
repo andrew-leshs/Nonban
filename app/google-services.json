@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1020987876323",
+    "project_id": "nonbanappmarket",
+    "storage_bucket": "nonbanappmarket.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020987876323:android:efb46a851fbbf5435bb6d6",
+        "android_client_info": {
+          "package_name": "com.hackerivanovich.nonbanappmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020987876323-8cneke62ghnj37l6ifkmokvb2n2rtt74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZN6FFdbEsnzVNIXeoHU-42hDb5hUY9bM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020987876323-8cneke62ghnj37l6ifkmokvb2n2rtt74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
